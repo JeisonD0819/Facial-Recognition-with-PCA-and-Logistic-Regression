@@ -25,12 +25,14 @@ This project explores facial image processing, dimensionality reduction, and bin
 ## Project Structure
 
 ```
-Homework_2.ipynb       # Main notebook with all sections
-faces/                 # Dataset directory (downloaded automatically)
-  ├── bruce/           # Bruce Lee images (15 .jpg)
-  ├── neil/            # Neil Patrick Harris images (15 .jpg)
-  └── pam/             # Pam Grier images (15 .jpg)
+├── code/
+│   └── Homework_2.ipynb       # Main notebook with all sections
+├── report/
+│   └── ...                    # Project report
+└── README.md
 ```
+
+> The `faces/` dataset directory is downloaded automatically when running the notebook.
 
 ---
 
@@ -108,5 +110,3 @@ This ensures consistent results across runs for NumPy, Python's `random`, and Py
 - Dataset source: [OSF Repository](https://osf.io/2kyfb/download) (originally from [ben-heil/cis_522_data](https://github.com/ben-heil/cis_522_data))
 - Face detection: [facenet-pytorch](https://github.com/timesler/facenet-pytorch)
 - PCA reference: [PyTorch randomness docs](https://pytorch.org/docs/stable/notes/randomness.html)
-# Facial-Recognition-with-PCA-and-Logistic-Regression
-Project related to the TIA course
