@@ -28,7 +28,7 @@ This project explores facial image processing, dimensionality reduction, and bin
 ├── code/
 │   └── Homework_2.ipynb       # Main notebook with all sections
 ├── report/
-│   └── ...                    # Project report
+│   └── ReportPCALogisticRegression.pdf                    # Project report
 └── README.md
 ```
 
